@@ -5,7 +5,6 @@
 .animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     position: relative;
     width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
-    left: -8px;
     bottom: -5px;
     background: transparent;
     box-shadow: none;
@@ -15,7 +14,6 @@
 .animatorTop_faf9c0:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     position: relative;
     width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
-    left: -8px;
     bottom: -5px;
     box-shadow: none;
     border-radius: 8px 8px 0 0;
@@ -50,7 +48,7 @@
     margin-left: 0;
 }
 /* Custom User profile popout background */
-.container__37e49:has(.avatarWrapper__37e49[aria-expanded=true])::before {
+.container__37e49:has(.accountPopoutButton__37e49[aria-expanded=true])::before {
     content: "";
     position: absolute;
     bottom: 49px;
@@ -148,7 +146,7 @@
 }
 
 /* Change user control panel background to match user profile popout */
-.visual-refresh .container__37e49:has(.avatarWrapper__37e49[aria-expanded=true]) {
+.visual-refresh .container__37e49:has(.accountPopoutButton__37e49[aria-expanded=true]) {
     border-radius: 0 0 10px 10px;
     transition: border-radius 50ms ease-in-out;
     background: var(--var-popout-color);

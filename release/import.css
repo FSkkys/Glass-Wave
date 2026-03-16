@@ -80,7 +80,7 @@
 .container_fed6d3, .visual-refresh .scroller__23746, .headerBar__8a7fc:after, .backdrop__8a7fc, .rewardDescriptionContainer__956c6, .visual-refresh .container__551b0, .container_cbd375, .stackedBars__74017,
 .visual-refresh .container_fb64c9, .layer_bc663c .mediaModal_a1cc72, .contentContainer__4325e, .visual-refresh.theme-dark .content__37e49, .visual-refresh .container__956c6, .visual-refresh .tabBody__133bf,
 .visual-refresh .container_c8ffbb, .button_f7ecac:hover, .scroller__53543, .visual-refresh .channelChatWrapper_cb9592, .visual-refresh .homeWrapper__0920e, .container__89463, 
-.sidebarContainer__89463 {
+.sidebarContainer__89463, .wrapper_d852db, .footer_a55fdc {
     background-color: transparent;
 }
 .artwork_c08b38 .image__5901e.loaded__5901e[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
@@ -905,9 +905,12 @@
     margin-top: 0;
     background: var(--var-black1);
 }
+.videoControls_bfe55a .topControls_bfe55a .container__9293f {
+    padding: 8px;
+}
 .page__5e434 .container__9293f {
     border-bottom: none;
-    padding: 0;
+    padding: 0px;
 }
 .page__5e434 .title_f75fb0 { 
     padding-left: 7px;
